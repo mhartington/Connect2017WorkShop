@@ -1,0 +1,14 @@
+  Setting up the Ionic CLI
+  Going over the core components
+  Demoing the basics on stackblitz
+  Interactive lists
+  Tools in the CLI
+  Where Ionic differs from Angular concepts
+  Navigation inside of Ionic
+  Overlays: Modals, alerts, popovers
+  Lazy loading data on demand
+  Lazy loading routes
+  Introducing Ionic Native
+  Setting up deploying using Ionic View
+  PWAs with Ionic
+  Wrapping up and parting discussion

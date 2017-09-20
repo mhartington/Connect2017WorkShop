@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Detail</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-md-4 offset-md-4>
+        <ion-card *ngIf="currentSong">
+          <img [src]="currentSong.artworkUrl100" alt="">
+          <ion-card-content>
+            <h3>{{currentSong.trackName}}</h3>
+            <p>{{currentSong.artistName}}</p>
+          </ion-card-content>
+        </ion-card>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
